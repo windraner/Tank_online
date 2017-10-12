@@ -1,0 +1,35 @@
+body {
+	background: #333;
+	margin: 0;
+	padding: 0;
+}
+
+#map {
+	display: block;
+	background: url('/water.png') repeat;
+	margin: 0 auto;
+}
+
+#player {
+	display: block;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+}
+
+#player:hover {
+	/*cursor: url("coursor.png"), pointer;*/
+}
+
+#name {
+	color: #fff;
+	font-family: Courier;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;	
+}
+
+#score {
+	height: 10px;
+	display: block;
+}
